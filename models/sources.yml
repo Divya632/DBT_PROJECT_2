@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: eth
+    database: dbt  
+    schema: dbt_work
+
+    tables:
+      - name: contracts
+      - name: token_transfers
+      - name: transactionss
