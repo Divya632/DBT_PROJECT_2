@@ -2,7 +2,7 @@ eth:
   outputs:
     dev:
       account: VWZYRYX-DA86835
-      database: DBT
+      database: CI
       private_key_path: "{{ENV_VAR('DBT_PRIVATE_KEY_PATH')}}"
       role: ACCOUNTADMIN
       schema: DBT_WORK

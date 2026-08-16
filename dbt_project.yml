@@ -28,7 +28,7 @@ seeds:
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
-
+#models
 
 # files using the `{{ config(...) }}` macro.
 models:
