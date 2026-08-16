@@ -3,7 +3,9 @@ name: dbt CI
 on:
   pull_request:
     branches:
-      - master
+      - random_work
+   
+  
 
 jobs:
   dbt-run:
@@ -43,6 +45,9 @@ jobs:
 
       - name: Run dbt debug
         run: dbt debug --target dev
+
+      - name: Run dbt seed
+        run: dbt seed --target dev
 
       - name: Run dbt
         run: dbt build --target dev
