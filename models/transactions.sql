@@ -10,4 +10,3 @@ t.receipt_contract_address,
 t.input
 
 from {{ source('eth', 'transactionss') }} t
-where 
