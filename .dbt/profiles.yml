@@ -1,6 +1,6 @@
 eth:
   outputs:
-    ci:
+    dev:
       account: "{{env_var('DBT_SNOWFLAKE_IDENTIFIER')}}"
       database: CI
       private_key_path: "{{ENV_VAR('DBT_PRIVATE_KEY_PATH')}}"
@@ -10,4 +10,4 @@ eth:
       type: snowflake
       user: "{{env_var('DBT_SNOWFLAKE_USER')}}"
       warehouse: COMPUTE_WH
-  target: ci
+  target: dev

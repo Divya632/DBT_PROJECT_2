@@ -42,7 +42,7 @@ jobs:
         run: dbt deps
 
       - name: Run dbt debug
-        run: dbt debug --target ci
+        run: dbt debug --target dev
 
       - name: Run dbt
-        run: dbt build --target ci
+        run: dbt build --target dev
