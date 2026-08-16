@@ -10,4 +10,4 @@ eth:
       type: snowflake
       user: "{{env_var('DBT_SNOWFLAKE_USER')}}"
       warehouse: COMPUTE_WH
-  target: ci
+  target: dev
